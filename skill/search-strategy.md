@@ -38,6 +38,18 @@ your own; these values belong to nobody):
 gh search issues --label "good first issue" --language python --state open --limit 100 --json title,repository,labels,assignees,commentsCount,updatedAt,url
 -->
 
+# Fullstack JavaScript/TypeScript with React and AI focus
+gh search issues --label "good first issue" --language typescript --state open --limit 100 --json title,repository,labels,assignees,commentsCount,updatedAt,url
+
+# React frontend projects looking for contributions
+gh search issues --label "good first issue" --language javascript --state open --limit 100 --json title,repository,labels,assignees,commentsCount,updatedAt,url
+
+# AI-integrated fullstack applications
+gh search issues "label:good first issue language:typescript AI" --state open --limit 100 --json title,repository,labels,assignees,commentsCount,updatedAt,url
+
+# TypeScript full-stack frameworks and tools
+gh search issues --label "help wanted" --language typescript --state open --limit 100 --json title,repository,labels,assignees,commentsCount,updatedAt,url
+
 ## Ranking filters
 
 <!-- Conditions and orderings over the free result fields, applied in
@@ -48,6 +60,12 @@ your ordering. Example SHAPES (write your own):
 - drop any result not updated in the last 60 days
 - prefer fewer comments over more
 -->
+
+- Drop any result with an existing assignee (indicates someone is already working on it)
+- Drop any result with no comments (may indicate abandoned or low-engagement issues)
+- Drop any result not updated in the last 90 days (prefer actively maintained repos)
+- Prefer fewer comments first (smaller scope, easier to tackle for first contribution)
+- Order by most recently updated first (repo is actively maintained)
 
 ## How many to grade
 

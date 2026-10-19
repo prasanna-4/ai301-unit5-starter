@@ -33,13 +33,4 @@ and claiming later is how two strangers do the same work twice.
 
 ## Your fit profile
 
-<!-- Paste this forward from your sandbox scope.md, and update it:
-it now does more work. Besides ranking the issues your rubric
-accepts, it steers WHERE the scout searches: your search-strategy.md
-queries should each trace to a sentence here, so name the languages,
-tools, and project areas you actually want to work in, and anything
-you want to avoid. It still never changes a verdict: fit cannot
-rescue an issue your rubric rejects, and cannot sink one it
-accepts. -->
-
-(Paste your fit profile here.)
+I want to contribute to fullstack JavaScript/TypeScript projects, particularly with React on the frontend. I'm interested in AI-integrated applications and features. I prefer to work on real-world projects that combine frontend and backend challenges with modern tooling.
